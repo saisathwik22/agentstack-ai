@@ -1,1 +1,5 @@
-   { "rewrites": [{ "source": "/api/:path*", "destination": "https://YOUR-GATEWAY.onrender.com/api/:path*" }] }
+{
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "https://agentstack-gateway.onrender.com/api/:path*" }
+  ]
+}
